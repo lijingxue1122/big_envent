@@ -19,8 +19,10 @@ $(function () {
 
 })
 
-function getUserInfo() {
 
+
+
+function getUserInfo() {
 
     $.ajax({
         type: 'get',
@@ -53,7 +55,7 @@ function renderuser(user) {
     $('.welcome').html('欢迎&nbsp;&nbsp' + uname)
 
     if (user.user_pic !== null) {
-        $('.layui - nav - img ').show().attr('src', user.user_pic)
+        $('.layui-nav-img ').show().attr('src', user.user_pic)
         $('.text-avatar').hide()
     } else {
         $('.layui-nav-img').hide()
