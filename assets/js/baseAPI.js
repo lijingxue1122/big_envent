@@ -18,9 +18,9 @@ $.ajaxPrefilter(function (options) {
     options.complete = function (res) {
 
         var data = res.responseJSON
-        console.log(data);
-        console.log(data.status);
-        console.log(data.message);
+        // console.log(data);
+        // console.log(data.status);
+        // console.log(data.message);
 
         if (data.status == 1 && data.message == "身份认证失败！") {
 
