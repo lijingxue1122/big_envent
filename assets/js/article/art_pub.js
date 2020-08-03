@@ -113,7 +113,7 @@ $(function () {
                         layui.layer.msg('发布成功')
                         location.href = '/article/art_list.html'
 
-
+                        window.parent.$('#a1').click()
                     }
 
 

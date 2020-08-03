@@ -147,6 +147,14 @@ $(function () {
 
         });
 
+    })
+
+
+
+    $('tbody').on('click', '.btn-edit', function () {
+
+        location.href = '/article/art_edit.html'
+
 
 
 
